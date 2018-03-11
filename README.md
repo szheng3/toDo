@@ -1,3 +1,2 @@
 # toDo
-npm install
-yarn run dev-server
+npm install && yarn run dev-server
