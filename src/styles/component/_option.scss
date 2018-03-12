@@ -1,0 +1,9 @@
+.option {
+  background: $off-black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size;
+  border-bottom: white 0.5rem solid;
+  margin: 0;
+}
