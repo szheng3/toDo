@@ -1,8 +1,10 @@
 .widget--header {
 
-  background: darken($off-black, 10%);
+  background: $off-black;
   color: oldlace;
   padding: $s-size;
   display: flex;
   justify-content: space-between;
+  border-bottom: $m-size darken($off-black, 10%) solid;
+
 }
