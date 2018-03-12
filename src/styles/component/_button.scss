@@ -4,12 +4,21 @@
   color: white;
   font-weight: bold;
   font-size: $m-size;
-  padding: $s-size;
+  padding: $m-size;
   border: none;
-  border-bottom: $s-size darken($blue, 10%) solid;
+  border-bottom: $m-size darken($blue, 10%) solid;
   margin-bottom: $s-size;
 }
 
 .big-button:disabled {
   opacity: 0.5;
+}
+
+.button--link {
+
+  background: none;
+  border: none;
+  color: $off-black;
+  padding: 0;
+
 }
