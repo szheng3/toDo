@@ -18,7 +18,13 @@
 
   background: none;
   border: none;
-  color: $off-black;
+  color: $blue;
   padding: 0;
 
+}
+
+.button--link:focus {
+
+  color: darken($blue, 20%);
+  outline: none;
 }
