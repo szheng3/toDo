@@ -42,6 +42,7 @@
 }
 
 .form_input {
+  margin: 0 $s-size 0 0;
   flex-grow: 1;
 }
 
@@ -61,4 +62,18 @@
 
 .button--link:focus {
   outline: none;
+}
+
+@media (max-width: $desktop-breakpoint) {
+
+  .add_option_form {
+    flex-direction: column;
+  }
+
+  .form_input {
+    margin: 0 0 $s-size 0;
+    height: 5rem;
+
+  }
+
 }
