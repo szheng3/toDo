@@ -6,8 +6,8 @@
   font-size: $m-size;
   padding: $m-size;
   border: none;
-  border-bottom: $m-size darken($blue, 10%) solid;
-  margin-bottom: $s-size;
+  border-bottom: $s-size darken($blue, 10%) solid;
+  margin: 0 0 $s-size 0;
 }
 
 .big-button:disabled {
