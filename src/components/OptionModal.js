@@ -12,7 +12,7 @@ const OptionModal = (props) => (
       <div>
     <h3>Selected Option</h3>
           {props.selectedOption && <p className='modal-text'>{props.selectedOption}</p>}
-    <button onClick={props.handleClearSelectedOption}>Okay</button>
+          <button onClick={props.handleClearSelectedOption} className='button'>Okay</button>
       </div>
   </Modal>
 );
